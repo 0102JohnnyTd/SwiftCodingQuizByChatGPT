@@ -3,13 +3,34 @@
 import Foundation
 
 // MARK: - Question
+//func performOperation(on array: [Int], using operation: (Int) -> Int) -> [Int] {
+//    // ここにコードを追加してください
+//}
 
-func performOperation(on array: [Int], using operation: (Int) -> Int) -> [Int] {
-    // ここにコードを追加してください
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // MARK: - Answer
+func performOperation(on array: [Int], using operation: (Int) -> Int) -> [Int] {
+    // ここにコードを追加してください
+    array.map { operation($0) }
+}
 
 
 // MARK: - TestCase
