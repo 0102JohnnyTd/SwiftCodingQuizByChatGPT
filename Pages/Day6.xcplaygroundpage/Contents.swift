@@ -3,16 +3,15 @@
 import Foundation
 
 // MARK: - Question
-//func filterArray(_ array: [Int], using condition: (Int) -> Bool) -> [Int] {
-//    // ここにコードを追加してください
-//}
+func filterArray(_ array: [Int], using condition: (Int) -> Bool) -> [Int] {
+    // ここにコードを追加してください
+}
 
 // MARK: - Question
 func filterArray(_ array: [Int], using condition: (Int) -> Bool) -> [Int] {
     // ここにコードを追加してください
     array.filter { condition($0) }
 }
-
 
 
 
